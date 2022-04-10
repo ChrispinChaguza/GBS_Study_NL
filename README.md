@@ -5,29 +5,17 @@ Data associated the the manuscript "GWAS of Group B Streptococcus identifies gen
 FaST-LMM output filename | Genetic variant type | Description
 -- | -- | --
 GENE_final.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | Gene presence/absence |
--- | -- | --
 GENE_final_GWAS.CNS_infection.FaST-LMM.results.tsv.tar.gz | Gene presence/absence | 
--- | -- | --
 GENE_final_GWAS.ONSET_categorical.FaST-LMM.results.tsv.tar.gz | Gene presence/absence | 
--- | -- | --
 GENE_final_GWAS.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | Gene presence/absence | 
--- | -- | --
 SNP_final.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | SNP | 
--- | -- | --
 SNP_final_GWAS.CNS_infection.FaST-LMM.results.tsv.tar.gz | SNP | 
--- | -- | --
 SNP_final_GWAS.ONSET_categorical.FaST-LMM.results.tsv.tar.gz | SNP | 
--- | -- | --
 SNP_final_GWAS.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | SNP | 
--- | -- | --
 Unitigs_final.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | Unitigs presence/absence | 
--- | -- | --
 Unitigs_final_GWAS.CNS_infection.FaST-LMM.results.tsv.tar.gz | Unitigs presence/absence | 
--- | -- | --
 Unitigs_final_GWAS.ONSET_categorical.FaST-LMM.results.tsv.tar.gz | Unitigs presence/absence | 
--- | -- | --
 Unitigs_final_GWAS.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | Unitigs presence/absence | 
--- | -- | --
 
 ## 
 Unitigs_presence_absence_matrix_all.tsv.tar.gz | 
