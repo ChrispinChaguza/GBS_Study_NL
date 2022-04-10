@@ -189,6 +189,7 @@ def main():
                             start = k.location.start.position
                             end = k.location.end.position
                             product = ""
+                            locus = ""
                             gene = ""
                             if 'product' in k.qualifiers:
                                 product = k.qualifiers['product'][0]
@@ -249,8 +250,8 @@ def main():
                        MM %>% mutate(Product=ifelse(Product==\"\",\"ZZZZZZZ\",Product)) %>%
                        mutate(Product=ifelse(Product==\"Intergenic region\",\"ZZZZZZZ\",Product)) %>%
                        mutate(Product=ifelse(Product==\"Intergenic region\",\"ZZZZZZZ\",Product)) %>%
-                       mutate(Product=ifelse(Product==\"Hypothetical protein\",\"ZZZZZZZ\",Product)) %>%
-                       mutate(Product=ifelse(Product==\"hypothetical protein\",\"ZZZZZZZ\",Product)) %>%
+                       mutate(Product=ifelse(Product==\"Hypothetical protein\",\"XXXX\",Product)) %>%
+                       mutate(Product=ifelse(Product==\"hypothetical protein\",\"XXXX\",Product)) %>%
                        dplyr::mutate(Product = tidyr::replace_na(Product, \"ZZZZZZZ\")) %>% 
                        dplyr::mutate(GeneID = tidyr::replace_na(GeneID, \"\")) %>%
                        group_by(Variant) %>% arrange(Variant,Product,MatchLength,Evalue) %>% 
@@ -259,6 +260,7 @@ def main():
                        mutate(Product=ifelse(Product==\"ZZZZZZZ\",\"Intergenic region\",Product)) %>%
                        mutate(LocusTag=ifelse(LocusTag==\"ZZZZZZZ\",\"Intergenic region\",LocusTag)) %>%
                        mutate(MostCommonFeatureInOtherGenomes=ifelse(MostCommonFeatureInOtherGenomes==\"ZZZZZZZ\",\"Intergenic region\",MostCommonFeatureInOtherGenomes)) %>%
+                       mutate(MostCommonFeatureInOtherGenomes=ifelse(MostCommonFeatureInOtherGenomes==\"XXXX\",\"Hypothetical protein\",MostCommonFeatureInOtherGenomes)) %>%
                        dplyr::filter(Annot.group==1) %>% dplyr::select(-Annot.group) %>% 
                        dplyr::mutate(MostCommonFeatureInOtherGenomes=ifelse(MostCommonFeatureInOtherGenomes==\"\",\"Intergenic region\",MostCommonFeatureInOtherGenomes)) %>%
                        dplyr::mutate(Product=ifelse(Product==\"ZZZZZZZ\",\"Intergenic region\",Product)) %>% ungroup() %>% rowwise() %>% 
