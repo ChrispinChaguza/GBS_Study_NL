@@ -23,6 +23,7 @@ Unitig presence and absence | Unitigs_presence_absence_matrix_all.tsv.tar.gz | A
 Unitig presence and absence | Unitigs_presence_absence_matrix_filtered.tsv.tar.gz | Unitigs present in 5-95% isolates
 Accessory gene presence and absence | accessory_gene_sequences.fa.tar.gz | All gene sequences
 SNPs | SNP.vcf.tar.gz | All SNPs
+Unitig sequences | Unitig_sequences.fa.tar.gz | All unitig sequences
 
 ## Scripts used to annotate SNPs and unitig sequences
 Script name | Description
