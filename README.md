@@ -1,4 +1,4 @@
-## Data associated the the manuscript "Discovery of Group B Streptococcus genetic variation influencing neonatal disease onset and meningeal invasion"
+## Data associated the the manuscript "Population genomics of Group B Streptococcus reveals the genetics of neonatal disease onset and meningeal invasion"
 
 ## Output files from the GWAS analysis using FaST-LMM
 FaST-LMM output filename | Genetic variant type | Phenotype | Phenotype type
