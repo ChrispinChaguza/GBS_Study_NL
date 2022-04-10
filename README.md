@@ -26,5 +26,6 @@ SNPs | SNP.vcf.tar.gz | All SNPs
 
 ## Scripts used to annotate SNPs and unitig sequences
 Script name | Description
+-- | -- 
 annotate_SNPs.py | Generates a summary of gene features in a reference genome given SNP position
 blast_annotate_fasta.py | Generates a summary of genetic features in GenBank-formatted reference genome(s) associated with given unitig sequences
