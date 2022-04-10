@@ -17,9 +17,14 @@ Unitigs_final_GWAS.ONSET_categorical.FaST-LMM.results.tsv.tar.gz | Unitigs prese
 Unitigs_final_GWAS.ONSET_continuous.FaST-LMM.results.tsv.tar.gz | Unitigs presence/absence | Disease onset time (days from birth to GBS disease onset) | Continuous (transformed) |
 
 ## SNPs, accessory gene sequences, and unitig sequences
-Unitigs_presence_absence_matrix_all.tsv.tar.gz | 
-Unitigs_presence_absence_matrix_filtered.tsv.tar.gz | 
-accessory_gene_sequences.fa.tar.gz | 
-annotate_SNPs.py | 
-blast_annotate_fasta.py | 
-SNP.vcf.tar.gz
+Variants/sequences | Filename | Description
+-- | -- | -- 
+Unitig presence and absence | Unitigs_presence_absence_matrix_all.tsv.tar.gz | All unitigs
+Unitig presence and absence | Unitigs_presence_absence_matrix_filtered.tsv.tar.gz | Unitigs present in 5-95% isolates
+Accessory gene presence and absence | accessory_gene_sequences.fa.tar.gz | All gene sequences
+SNPs | SNP.vcf.tar.gz | All SNPs
+
+## Scripts used to annotate SNPs and unitig sequences
+Script name | Description
+annotate_SNPs.py | Generates a summary of gene features in a reference genome given SNP position
+blast_annotate_fasta.py | Generates a summary of genetic features in GenBank-formatted reference genome(s) associated with given unitig sequences
