@@ -22,3 +22,4 @@ Unitigs_presence_absence_matrix_filtered.tsv.tar.gz |
 accessory_gene_sequences.fa.tar.gz | 
 annotate_SNPs.py | 
 blast_annotate_fasta.py | 
+SNP.vcf.tar.gz
