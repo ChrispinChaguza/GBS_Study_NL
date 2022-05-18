@@ -1,5 +1,5 @@
-##R code for the rank-based inverse normal transformation of quantitative phenotypes/traits in GWAS (slightly modified)
-##https://yuxuanstat.com/posts/2020/06/rank-based-inverse-normal-transformation/
+##R code for the rank-based inverse normal transformation of quantitative phenotypes/traits in GWAS (Original code written by Yuxuan Wang; slightly modified below)
+##The original code is available here: https://yuxuanstat.com/posts/2020/06/rank-based-inverse-normal-transformation/
 
 irnt <- function(pheno) {
   set.seed(1234)
