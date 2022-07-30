@@ -30,4 +30,4 @@ blast_annotate_fasta.py | Generates a summary of genetic features in GenBank-for
 GWAS_transform_quantitative_phenotype_RINT.R | R code for the rank-based inverse normal transformation of quantitative phenotypes/traits in GWAS (Original script written by Yuxuan Wang at Boston University; https://yuxuanstat.com/posts/2020/06/rank-based-inverse-normal-transformation/)
 
 # Reference
-Chrispin Chaguza, Dorota M. Jamrozy, Merijn W. Bijlsma, Taco W. Kuijpers, Diederik van de Beek, Arie van der Ende, Stephen D. Bentley. **Population genomics of Group B Streptococcus reveals the genetics of neonatal disease onset and meningeal invasion**. Nature Communications (In press).
+Chaguza C, Jamrozy D, Bijlsma MW, Kuijpers TW, van de Beek D, van der Ende A, Bentley SD. Population genomics of Group B Streptococcus reveals the genetics of neonatal disease onset and meningeal invasion. Nat Commun. 2022 Jul 21;13(1):4215. doi: 10.1038/s41467-022-31858-4. PMID: 35864107; PMCID: PMC9304382.
